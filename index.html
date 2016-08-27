@@ -1,0 +1,44 @@
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+    <script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+	<title>Login</title>
+</head>
+<body>
+	<form id="login-box" name="formulario" onsubmit="return validaInfo()">
+		<div id="login-box-interno">
+
+			<div id="login-box-label">
+				<h1> Login </h1>
+			</div>
+
+			<div class="login-form">
+				<div class="control-group">
+					<div>
+						<input name="usuario" type="text" placeholder="Usuário" class="login-field" id="input-usuario" />
+					</div>
+				</div>
+
+				<div class="control-group">
+					<div>
+						<input name="senha" type="password" placeholder="Senha" class="login-field" id="input-senha" />
+					</div>
+				</div>
+
+				<a class="btn btn-primary btn-large btn-block" onclick="validaInfo()">Acessar</a>
+
+				<div id="msg_erro" class="login-link">
+					* Os campos de Usuário e Senha são obrigatórios
+				</div>
+				
+				<a id="recover" class="login-link" href="#" >Esqueceu a senha?</a>
+
+				<!-- <button type="submit" class="btn_login">Acessar</button> -->
+
+            </div>
+		</div>
+	</form>
+</body>
+</html>
