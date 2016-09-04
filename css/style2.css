@@ -14,7 +14,7 @@ padding: 50px;
 
 #login-box {
 margin: 20px auto;
-width: 450px;
+width: 80%;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -45,8 +45,9 @@ border-radius: 3px;
 font-size: 16px;
 font-weight: 200;
 padding: 10px 0;
-width: 250px;
+/*width: 250px;*/
 transition: border .5s;
+display: inline;
 }
 
 input:focus {
@@ -80,4 +81,24 @@ box-shadow: none;
   color: #444;
   display: block;
   margin-top: 12px;
+}
+#msg_erro {
+  visibility: hidden;
+}
+fieldset {
+  text-align: left;
+}
+#enviarpara {
+  width: 120px;
+  margin:0;
+
+}
+.selecao {
+  width: 100%;
+}
+table {
+  width: 100%;
+}
+td {
+  align-items: center;
 }

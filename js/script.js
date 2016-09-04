@@ -1,4 +1,4 @@
-function validaInfo() {
+function validaInfo() { 
     if (document.formulario.login.value == "") {
        document.formulario.login.focus();
        document.formulario.login.style.borderColor="#ff0000";

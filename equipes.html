@@ -1,0 +1,54 @@
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+    <script src="js/script.js"></script>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> --> 
+	<title>Organização de Equipes</title>
+</head>
+<body>
+	<form id="login-box" name="formulario" onsubmit="return validaInfo()">
+		<div id="login-box-interno">
+
+			<div id="login-box-label">
+				<h1> Organização de Equipes </h1>
+			</div>
+
+			<div class="login-form">
+				<div class="control-group">
+					<fieldset>
+					<table>
+					<tr>
+						<td>
+						<div>
+							<label for="atletas">Atleta(s):</label><br>
+							
+								<select size="5" name="atletas" class="selecao" multiple>
+									<option value="volvo">João</option>
+									<option value="saab">Maria</option>
+									<option value="opel">José</option>
+								</select>
+						<td>
+						<td align="center">
+						<a class="btn btn-primary btn-block" id="enviarpara" onclick="validaInfo()" >Enviar para >></a>
+						</td>
+						<td>
+							<label for="input-usuario">Equipe:</label><br>
+								<select class="selecao" >
+									<option value="volvo">1</option>
+									<option value="saab">2</option>
+									<option value="opel">3</option>
+								</select>
+						</div>
+						<td>
+					</tr>
+					</table>
+					</fieldset>
+				</div>
+
+				<a class="btn btn-primary btn-large btn-block" onclick="validaInfo()">Salvar</a>
+            </div>
+		</div>
+	</form>
+</body>
+</html>

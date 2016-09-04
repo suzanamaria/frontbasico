@@ -1,0 +1,63 @@
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+    <script src="js/script.js"></script>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> --> 
+	<title>Cadastro</title>
+</head>
+<body>
+	<form id="login-box" name="formulario" onsubmit="return validaInfo()">
+		<div id="login-box-interno">
+
+			<div id="login-box-label">
+				<h1> Cadastro </h1>
+			</div>
+
+			<div class="login-form">
+				<fieldset>
+    				<legend>Dados Pessoais:</legend>
+					<div class="control-group">
+						<div>
+							<label for="input-usuario">Nome:</label>
+							<input name="login" type="text" placeholder="Nome" class="login-field" id="input-usuario" size="20" />
+							<label for="input-usuario">Sobrenome:</label>
+							<input name="login" type="text" placeholder="dd/mm/aaaa" class="login-field" id="input-usuario" />
+						</div>
+						<div>
+							<label for="input-usuario">Data de Nascimento:</label>
+							<input name="login" type="text" placeholder="Sobrenome" class="login-field" id="input-usuario" size="10" />
+							<label for="input-usuario">Nacionalidade:</label>
+							<input name="login" type="text" placeholder="Sobrenome" class="login-field" id="input-usuario" />
+							
+						</div>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Dados de Esporte:</legend>
+					<div class="control-group">
+						<div>
+							<label for="input-usuario">Esporte praticado:</label>
+							<select>
+								<option value="volvo">Futebol</option>
+								<option value="saab">Atletismo</option>
+								<option value="opel">Natação</option>
+								<option value="audi">Volei</option>
+							</select>
+						</div>
+						<div>
+							<label for="input-usuario">Nº camisa:</label>
+							<input name="login" type="text" placeholder="Nº" class="login-field" id="input-usuario" size="3" />
+						</div>				
+				</fieldset>
+
+				
+
+				<a class="btn btn-primary btn-large btn-block" onclick="validaInfo()">Salvar</a>
+
+
+            </div>
+		</div>
+	</form>
+</body>
+</html>
