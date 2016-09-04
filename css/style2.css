@@ -102,3 +102,12 @@ table {
 td {
   align-items: center;
 }
+
+.foto img {
+  float: left;
+  width: 200px;
+}
+
+.info {
+  margin-left: 25%;
+}
